@@ -1,0 +1,60 @@
+form {
+    width: 400px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    padding: 0 20px;
+    }
+
+p {
+    color: gray;
+    margin-bottom: 40px;
+}
+
+/* div {
+    display: flex;
+} */
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+    width: 130px;
+}
+
+input {
+    width: 140px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 400px;
+    height: 50px;
+    color: gray;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: gray;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+[type=submit] {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(58, 92, 248);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    margin-top: 20px;
+    /* padding: 20px 0; */
+}
